@@ -1,9 +1,9 @@
 name: Production deployment
 
 on: 
-    push:
-      branches:
-        - master
+  push:
+    branches:
+      - master
   
   jobs:
     build:
